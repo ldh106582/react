@@ -34,7 +34,6 @@ export default class SearchFormView extends View {
       this.handleReset();
       }
   }
-  
   handleSubmit(event) {
     event.preventDefault();
     console.log(tag, "handleSubmit");
